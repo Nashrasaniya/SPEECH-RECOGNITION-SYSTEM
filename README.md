@@ -16,83 +16,83 @@ This project is a comprehensive solution that converts spoken words into text. I
 
 1. Features
 
--> Speech-to-Text (STT): Transcribes audio files into text using the SpeechRecognition library.
+      -> Speech-to-Text (STT): Transcribes audio files into text using the SpeechRecognition library.
 
--> Audio Format Conversion: Utilizes pydub and ffmpeg to convert audio files between formats (e.g., MP3 to WAV).
+      -> Audio Format Conversion: Utilizes pydub and ffmpeg to convert audio files between formats (e.g., MP3 to WAV).
 
--> Command-Line Interface: Provides an interactive CLI for user input and output.
+      -> Command-Line Interface: Provides an interactive CLI for user input and output.
 
--> Cross-Platform Compatibility: Runs on Windows, macOS, and Linux systems
+      -> Cross-Platform Compatibility: Runs on Windows, macOS, and Linux systems
 
 2. Technologies Used
    
--> Python 3.11: Core programming language.
+      -> Python 3.11: Core programming language.
 
--> SpeechRecognition: Library for performing speech recognition.
+      -> SpeechRecognition: Library for performing speech recognition.
 
--> pydub: Library for audio manipulation.
+      -> pydub: Library for audio manipulation.
 
--> ffmpeg: Tool for handling multimedia data.
+      -> ffmpeg: Tool for handling multimedia data.
 
 3. Usage:
    
-  i. Convert MP3 to WAV:
+     i. Convert MP3 to WAV:
   
--> python converr.py
+         -> python converr.py
 
-   Ensure the MP3 file path is correctly specified within the script.
+            Ensure the MP3 file path is correctly specified within the script.
 
-  ii. Transcribe Audio to Text:
+     ii. Transcribe Audio to Text:
 
-  ->  python speech_to_text.py
+        ->  python speech_to_text.py
   
-   The script will process the WAV file and output the transcribed text.
+            The script will process the WAV file and output the transcribed text.
 
 4. Example
 
-Input Audio: A short WAV file containing speech.
+      Input Audio: A short WAV file containing speech.
 
-Transcribed Text: The script will output the text equivalent of the spoken words in the audio file. 
+      Transcribed Text: The script will output the text equivalent of the spoken words in the audio file. 
 
 5. Acknowledgements
 
--> SpeechRecognition
+      -> SpeechRecognition
 
--> pydub
+      -> pydub
 
--> ffmpeg
+      -> ffmpeg
 
 6.  Python Packages
 
-SpeechRecognition: A library for performing speech recognition, with support for several engines and APIs.​
+   i. SpeechRecognition: A library for performing speech recognition, with support for several engines and APIs.​
 
-pip install SpeechRecognition
+      pip install SpeechRecognition
 
-pydub: A high-level audio manipulation library.​
+   ii. pydub: A high-level audio manipulation library.​
 
-Installation:
+      Installation:
 
-pip install pydub
+      pip install pydub
 
-ffmpeg-python: Python bindings for FFmpeg, a complete, cross-platform solution to record, convert and stream audio and video.​
+  iii. ffmpeg-python: Python bindings for FFmpeg, a complete, cross-platform solution to record, convert and stream audio and video.​
 
-Installation:
+      Installation:
 
-pip install ffmpeg-python
+      pip install ffmpeg-python
 
 7. requirements.txt Example
 
-You can create a requirements.txt file to manage your project dependencies easily:​
+   You can create a requirements.txt file to manage your project dependencies easily:​
 
-plaintext
+      i. plaintext
 
-SpeechRecognition
+      ii. SpeechRecognition
 
-PyAudio
+      iii. PyAudio
 
-pydub
-
-ffmpeg-python
+      iv.pydub
+      
+      v. ffmpeg-python
 
 #output
 
