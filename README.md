@@ -94,3 +94,6 @@ pydub
 
 ffmpeg-python
 
+#output
+
+![Image](https://github.com/user-attachments/assets/de41df3c-6b76-4d06-8fa1-bf90aa25bdfb)
