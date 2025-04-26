@@ -14,7 +14,7 @@ Speech Recognition System
 
 This project is a comprehensive solution that converts spoken words into text. It leverages pre-trained models and libraries to facilitate seamless speech-to-text transcription. Designed for tasks such as transcribing short audio clips, it serves as a foundational tool for various applications in natural language processing and human-computer interaction.
 
-1. Features
+# Features
 
       -> Speech-to-Text (STT): Transcribes audio files into text using the SpeechRecognition library.
 
@@ -24,7 +24,7 @@ This project is a comprehensive solution that converts spoken words into text. I
 
       -> Cross-Platform Compatibility: Runs on Windows, macOS, and Linux systems
 
-2. Technologies Used
+# Technologies Used
    
       -> Python 3.11: Core programming language.
 
@@ -34,7 +34,7 @@ This project is a comprehensive solution that converts spoken words into text. I
 
       -> ffmpeg: Tool for handling multimedia data.
 
-3. Usage:
+# Usage:
    
      i. Convert MP3 to WAV:
   
@@ -48,13 +48,13 @@ This project is a comprehensive solution that converts spoken words into text. I
   
             The script will process the WAV file and output the transcribed text.
 
-4. Example
+# Example
 
       Input Audio: A short WAV file containing speech.
 
       Transcribed Text: The script will output the text equivalent of the spoken words in the audio file. 
 
-5. Acknowledgements
+# Acknowledgements
 
       -> SpeechRecognition
 
@@ -62,7 +62,7 @@ This project is a comprehensive solution that converts spoken words into text. I
 
       -> ffmpeg
 
-6.  Python Packages
+#  Python Packages
 
    i. SpeechRecognition: A library for performing speech recognition, with support for several engines and APIs.​
 
@@ -80,7 +80,7 @@ This project is a comprehensive solution that converts spoken words into text. I
 
       pip install ffmpeg-python
 
-7. requirements.txt Example
+# requirements.txt Example
 
    You can create a requirements.txt file to manage your project dependencies easily:​
 
@@ -94,6 +94,6 @@ This project is a comprehensive solution that converts spoken words into text. I
       
       v. ffmpeg-python
 
-#output
+# output
 
 ![Image](https://github.com/user-attachments/assets/de41df3c-6b76-4d06-8fa1-bf90aa25bdfb)
